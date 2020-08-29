@@ -1,0 +1,23 @@
+<table className="striped responsive-table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Email</th>
+                            <th>Phone No</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{tableData.id}</td>
+                            <td>{tableData.name}</td>
+                            <td>{tableData.age}</td>
+                            <td>{tableData.gender}</td>
+                            <td>{tableData.email}</td>
+                            <td>{tableData.phoneNo}</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
