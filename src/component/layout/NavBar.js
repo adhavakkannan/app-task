@@ -11,7 +11,7 @@ const NavBar = () =>{
   //console.log(selector.auth.isLoggedIn);
     return (
       <nav>
-        <div className=" nav-wrapper grey darken-2">
+        <div className=" nav-wrapper teal">
           <div className="container">
             <Link to="/" className="brand-logo">
               E-Data
